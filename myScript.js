@@ -1,4 +1,5 @@
 // min and max radius, radius threshold and percentage of filled circles
+var canvas = document.getElementById('canvas');
 var radMin = 5,
   radMax = 125,
   filledCircle = 60, //percentage of filled circles
