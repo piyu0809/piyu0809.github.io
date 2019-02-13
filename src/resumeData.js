@@ -16,19 +16,14 @@ let resumeData = {
           "url":"https://github.com/piyu0809",
           "className":"fa fa-github"
         },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
       ],
     "address":"Binghamton NY USA",
     "aboutme":"Graduate Student At SUNY Binghamton. Currently looking for full time opportunities in software development",
     "website":"https://piyu0809.github.io",
-    "Phone": "6072328719",
+    "Phone": "607-232-8719",
     "education":[
       {
-        "UniversityName":"SUNY Binghamton University",
+        "UniversityName":"State Univarsity of New York at Binghamton",
         "specialization":"Computer Science",
         "MonthOfPassing":"May",
         "YearOfPassing":"2019"
@@ -36,7 +31,7 @@ let resumeData = {
 
     ],
 
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"HTML5, CSS3, React.js, Javascript(ES6), Java, C++, MySql",
     "skills":[
       {
         "skillname":"HTML5"
@@ -48,38 +43,42 @@ let resumeData = {
         "skillname":"Reactjs"
       },
       {
-        "skillname":"Javascript(ES6)"
+        "skillname":"Javascript_ES6"
       },
       {
         "skillname":"Java"
       },
       {
-        "skillname":"C++"
+        "skillname":"Cpp"
       },
       {
-        "skillname":"Mysql DB"
+        "skillname":"SQL"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Pokedocs",
+        "description":"Pokedox a Pokemon document built in Reactjs using Redux ",
+        "imgurl":"images/portfolio/pokeball.png",
+        "link": "https://github.com/piyu0809/Pokedocs"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"ChatAll",
+        "description":"ChatApp in Reactjs and chatkit api",
+        "imgurl":"images/portfolio/chatapp.png",
+        "link":"https://github.com/piyu0809/ChatAll"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project2.png"
+        "name":"TaptoFlash",
+        "description":"Android Sensor App(Flashlight) ",
+        "imgurl":"images/portfolio/torch1.png",
+        "link":"https://github.com/piyu0809/Android-Sensor-App"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"GitMeAProfile",
+        "description":"GITHUB Profile Searcher",
+        "imgurl":"images/portfolio/gitt.png",
+        "link":"https://github.com/piyu0809/GitMeAProfile"
       }
     ],
     "testimonials":[

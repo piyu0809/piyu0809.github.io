@@ -51,21 +51,21 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
+   width: 100%;
    padding-bottom: 30px;s
    text-align: center;
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 140px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   margin: 0 auto 10px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 22px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
@@ -86,7 +86,7 @@ header .banner-text hr {
 header .social {
    margin: 24px 0;
    padding: 0;
-   font-size: 30px;
+   font-size: 50px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
@@ -130,7 +130,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 18px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -198,21 +198,30 @@ ul#nav li.current a { color: #F06000; }
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
-#about h2 {
+#about h2{
+   font: 24px/32px 'opensans-bold', sans-serif;
+   font-weight: bolder;
+   color: #1e272e;
+   margin-bottom: 12px;
+}
+#about h4{
    font: 22px/30px 'opensans-bold', sans-serif;
    font-weight: bolder;
-   color: #f7f1e3;
+   color: #1e272e;
    margin-bottom: 12px;
+   margin-top: 12px;
 }
 #about p {
    line-height: 30px;
    color: #fff;
-   font-weight: 700;
+   font-weight: 300;
+   margin-bottom: 12px;
+   font-size: 19px;
 }
 #about .profile-pic {
    position: relative;
-   width: 650px;
-   height: 380px;
+   width: 850px;
+   height: 300px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -232,6 +241,19 @@ ul#nav li.current a { color: #F06000; }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+#about a:link, a:visited {
+  background-color: #2980b9;
+  color: white;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#about a:hover, a:active {
+  background-color: #3498db;
+  color: black;
 }
 
 
@@ -328,86 +350,98 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
 .css {
-  	width: 90%;
+  	width: 60%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 60%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
+.reactjs {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: reactjs 2s ease;
+  	-webkit-animation: reactjs 2s ease;
+}
+.javascript_es6{
+  width: 50%;
+  -moz-animation: javascript_es6 2s ease;
+  -webkit-animation: javascript_es6 2s ease;
+}
+.java{
+  width: 60%;
+  -moz-animation: java 2s ease;
+  -webkit-animation: java 2s ease;
+}
+.cpp{
+  width: 50%;
+  -moz-animation: cpp 2s ease;
+  -webkit-animation: cpp 2s ease;
+}
+.sql{
+  width: 60%;
+  -moz-animation: sql 2s ease;
+  -webkit-animation: sql 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 60%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 60%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes reactjs {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-
-@-webkit-keyframes photoshop {
+@-moz-keyframes javascript_es6 {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes java {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
+@-moz-keyframes cpp {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-moz-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+/* ------------------------------------------------------------------ */
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 60%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 60%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes reactjs {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-webkit-keyframes javascript_es6 {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes cpp {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -491,6 +525,8 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   height: 180px;
+   width: 180px
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
@@ -501,6 +537,18 @@ ul#nav li.current a { color: #F06000; }
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
+}
+.portfolio-item a:link, a:visited{
+  color: #3498db;
+  font-size: 18px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.portfolio-item a:hover, a:active {
+  color: #2ecc71;
+  background-color: #ebeeee;
 }
 
 /* on hover */
@@ -643,7 +691,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testmonials-bg.gif) no-repeat center center;
+  background: #161415 url(../images/header-background2.gif) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -792,7 +840,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+  background: #161415 url(../images/header-background2.gif) no-repeat top center;
+   background-size: cover !important;
+ -webkit-background-size: cover !important;
+   background-attachment: fixed;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -821,11 +872,7 @@ call-to-action .button {
    color: #ebeeee;
 }
 
-#contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
-}
+
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
@@ -929,16 +976,20 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
+  background: #161415 url(../images/header-background2.gif) no-repeat top center;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   background-attachment: fixed;
    padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
+
+   color: #ff3f34;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #fff; }
+footer a:hover, footer a:focus { color: #0F9095; }
 
 /* copyright */
 footer .copyright {
@@ -968,14 +1019,14 @@ footer .copyright  li:first-child:before {
 footer .social-links {
    margin: 18px 0 30px 0;
    padding: 0;
-   font-size: 30px;
+   font-size: 50px;
 }
 footer .social-links li {
     display: inline-block;
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #ff3f34
 }
 
 footer .social-links li:first-child { margin-left: 0; }
